@@ -1,0 +1,21 @@
+platform :ios, '8.0'
+
+target 'coachfellow' do
+pod 'MBProgressHUD'
+pod 'UMCAnalytics', '~> 5.5.0'
+pod 'UMCShare/Social/ReducedWeChat', '= 6.9.3'
+pod 'UMCShare/Social/ReducedQQ', '= 6.9.3'
+pod 'UMCShare/Social/ReducedSina', '= 6.9.3'
+pod 'Bugly'
+pod 'SDWebImage'
+pod 'AFNetworking'
+pod 'YTKNetwork'
+pod 'Reachability'
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'IQKeyboardManager'
+#云信
+pod 'NIMSDK_LITE'
+
+end
