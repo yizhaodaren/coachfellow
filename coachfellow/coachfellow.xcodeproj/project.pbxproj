@@ -15,6 +15,7 @@
 		1817B41521C8CB91001781C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817B41421C8CB91001781C7 /* main.m */; };
 		1817B41F21C8CB91001781C7 /* coachfellowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817B41E21C8CB91001781C7 /* coachfellowTests.m */; };
 		1817B42A21C8CB91001781C7 /* coachfellowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817B42921C8CB91001781C7 /* coachfellowUITests.m */; };
+		AE14F74E20616B5DFF4E0EBD /* libPods-coachfellow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D588EDE83D041ECF40DBC03D /* libPods-coachfellow.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047015AA7C9BE9A8DF01F691 /* Pods-coachfellow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coachfellow.release.xcconfig"; path = "Pods/Target Support Files/Pods-coachfellow/Pods-coachfellow.release.xcconfig"; sourceTree = "<group>"; };
 		1817B40221C8CB8F001781C7 /* coachfellow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coachfellow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1817B40521C8CB8F001781C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1817B40621C8CB8F001781C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		1817B42521C8CB91001781C7 /* coachfellowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coachfellowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1817B42921C8CB91001781C7 /* coachfellowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coachfellowUITests.m; sourceTree = "<group>"; };
 		1817B42B21C8CB91001781C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821568A7867EA8F4802ED22E /* Pods-coachfellow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coachfellow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coachfellow/Pods-coachfellow.debug.xcconfig"; sourceTree = "<group>"; };
+		D588EDE83D041ECF40DBC03D /* libPods-coachfellow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coachfellow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE14F74E20616B5DFF4E0EBD /* libPods-coachfellow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				1817B41D21C8CB91001781C7 /* coachfellowTests */,
 				1817B42821C8CB91001781C7 /* coachfellowUITests */,
 				1817B40321C8CB8F001781C7 /* Products */,
+				8E3BDBC239B6AA422AB9A9F3 /* Pods */,
+				2ABADC23C2BF8E1A334C0718 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +139,23 @@
 			path = coachfellowUITests;
 			sourceTree = "<group>";
 		};
+		2ABADC23C2BF8E1A334C0718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D588EDE83D041ECF40DBC03D /* libPods-coachfellow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E3BDBC239B6AA422AB9A9F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				821568A7867EA8F4802ED22E /* Pods-coachfellow.debug.xcconfig */,
+				047015AA7C9BE9A8DF01F691 /* Pods-coachfellow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1817B42E21C8CB91001781C7 /* Build configuration list for PBXNativeTarget "coachfellow" */;
 			buildPhases = (
+				D29883B50995AA695F08FF21 /* [CP] Check Pods Manifest.lock */,
 				1817B3FE21C8CB8F001781C7 /* Sources */,
 				1817B3FF21C8CB8F001781C7 /* Frameworks */,
 				1817B40021C8CB8F001781C7 /* Resources */,
+				2A3480DA02839637A79D8BE3 /* [CP] Embed Pods Frameworks */,
+				A7B024A78079E91D9341C0A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,77 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A3480DA02839637A79D8BE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-coachfellow/Pods-coachfellow-frameworks.sh",
+				"${PODS_ROOT}/NIMSDK_LITE/NIMSDK/NIMSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coachfellow/Pods-coachfellow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B024A78079E91D9341C0A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-coachfellow/Pods-coachfellow-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coachfellow/Pods-coachfellow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D29883B50995AA695F08FF21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coachfellow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1817B3FE21C8CB8F001781C7 /* Sources */ = {
@@ -431,6 +529,7 @@
 		};
 		1817B42F21C8CB91001781C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821568A7867EA8F4802ED22E /* Pods-coachfellow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +546,7 @@
 		};
 		1817B43021C8CB91001781C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047015AA7C9BE9A8DF01F691 /* Pods-coachfellow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
