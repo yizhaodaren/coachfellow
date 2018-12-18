@@ -28,6 +28,7 @@ PODS:
   - UMCAnalytics (5.5.1):
     - UMCCommon
   - UMCCommon (1.5.2)
+  - UMCSecurityPlugins (1.0.6)
   - UMCShare/Core (6.9.3):
     - UMCCommon
   - UMCShare/Social/ReducedQQ (6.9.3):
@@ -53,7 +54,9 @@ DEPENDENCIES:
   - NIMSDK_LITE
   - Reachability
   - SDWebImage
-  - UMCAnalytics (~> 5.5.0)
+  - UMCAnalytics
+  - UMCCommon
+  - UMCSecurityPlugins
   - UMCShare/Social/ReducedQQ (= 6.9.3)
   - UMCShare/Social/ReducedSina (= 6.9.3)
   - UMCShare/Social/ReducedWeChat (= 6.9.3)
@@ -73,6 +76,7 @@ SPEC REPOS:
     - SDWebImage
     - UMCAnalytics
     - UMCCommon
+    - UMCSecurityPlugins
     - UMCShare
     - YTKNetwork
 
@@ -89,9 +93,10 @@ SPEC CHECKSUMS:
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   UMCAnalytics: 0aff87e39008e2a650e5917430db0da2de2f8495
   UMCCommon: 4392868ac47ff1b101663106bb114ba616fabbad
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
   UMCShare: 023886b10d11119331c9c46d8e8a0c31fe67c23e
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
 
-PODFILE CHECKSUM: 564045518c253c8bbd2db5a12beb244b1770dfbe
+PODFILE CHECKSUM: f56e2f966b3fad7dbfae2b742e393701f25b4556
 
 COCOAPODS: 1.5.3

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180417E921C8E5E4000B4F8C /* YZBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180417E821C8E5E4000B4F8C /* YZBaseTabBarController.m */; };
+		180417EC21C8E613000B4F8C /* YZBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180417EB21C8E613000B4F8C /* YZBaseNavigationController.m */; };
+		180417EF21C8E62D000B4F8C /* YZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180417EE21C8E62D000B4F8C /* YZBaseViewController.m */; };
+		180417F921C8EA9D000B4F8C /* UITabBar+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 180417F421C8EA9C000B4F8C /* UITabBar+Badge.m */; };
+		180417FA21C8EA9D000B4F8C /* UIView+NTES.m in Sources */ = {isa = PBXBuildFile; fileRef = 180417F521C8EA9C000B4F8C /* UIView+NTES.m */; };
+		180417FB21C8EA9D000B4F8C /* NSDictionary+MOLDictionaryExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 180417F721C8EA9C000B4F8C /* NSDictionary+MOLDictionaryExtention.m */; };
+		180417FE21C8EAA8000B4F8C /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 180417FD21C8EAA8000B4F8C /* MBProgressHUD+MJ.m */; };
+		1804180121C8EAB5000B4F8C /* UIButton+MOLButtonExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 180417FF21C8EAB5000B4F8C /* UIButton+MOLButtonExtention.m */; };
 		1817B40721C8CB8F001781C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817B40621C8CB8F001781C7 /* AppDelegate.m */; };
 		1817B40A21C8CB8F001781C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817B40921C8CB8F001781C7 /* ViewController.m */; };
 		1817B40D21C8CB8F001781C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1817B40B21C8CB8F001781C7 /* Main.storyboard */; };
@@ -15,6 +23,8 @@
 		1817B41521C8CB91001781C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817B41421C8CB91001781C7 /* main.m */; };
 		1817B41F21C8CB91001781C7 /* coachfellowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817B41E21C8CB91001781C7 /* coachfellowTests.m */; };
 		1817B42A21C8CB91001781C7 /* coachfellowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817B42921C8CB91001781C7 /* coachfellowUITests.m */; };
+		1817B44921C8DA34001781C7 /* AppDelegate+RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817B44821C8DA34001781C7 /* AppDelegate+RootController.m */; };
+		1817B44C21C8DA58001781C7 /* AppDelegate+Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817B44B21C8DA58001781C7 /* AppDelegate+Service.m */; };
 		AE14F74E20616B5DFF4E0EBD /* libPods-coachfellow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D588EDE83D041ECF40DBC03D /* libPods-coachfellow.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +47,25 @@
 
 /* Begin PBXFileReference section */
 		047015AA7C9BE9A8DF01F691 /* Pods-coachfellow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coachfellow.release.xcconfig"; path = "Pods/Target Support Files/Pods-coachfellow/Pods-coachfellow.release.xcconfig"; sourceTree = "<group>"; };
+		180417E721C8E5E4000B4F8C /* YZBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZBaseTabBarController.h; sourceTree = "<group>"; };
+		180417E821C8E5E4000B4F8C /* YZBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZBaseTabBarController.m; sourceTree = "<group>"; };
+		180417EA21C8E613000B4F8C /* YZBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZBaseNavigationController.h; sourceTree = "<group>"; };
+		180417EB21C8E613000B4F8C /* YZBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZBaseNavigationController.m; sourceTree = "<group>"; };
+		180417ED21C8E62D000B4F8C /* YZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZBaseViewController.h; sourceTree = "<group>"; };
+		180417EE21C8E62D000B4F8C /* YZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZBaseViewController.m; sourceTree = "<group>"; };
+		180417F021C8E65E000B4F8C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		180417F121C8E6E9000B4F8C /* SystemMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemMacro.h; sourceTree = "<group>"; };
+		180417F221C8E70E000B4F8C /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		180417F321C8EA9C000B4F8C /* UITabBar+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Badge.h"; sourceTree = "<group>"; };
+		180417F421C8EA9C000B4F8C /* UITabBar+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Badge.m"; sourceTree = "<group>"; };
+		180417F521C8EA9C000B4F8C /* UIView+NTES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NTES.m"; sourceTree = "<group>"; };
+		180417F621C8EA9C000B4F8C /* NSDictionary+MOLDictionaryExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MOLDictionaryExtention.h"; sourceTree = "<group>"; };
+		180417F721C8EA9C000B4F8C /* NSDictionary+MOLDictionaryExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MOLDictionaryExtention.m"; sourceTree = "<group>"; };
+		180417F821C8EA9D000B4F8C /* UIView+NTES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NTES.h"; sourceTree = "<group>"; };
+		180417FC21C8EAA8000B4F8C /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		180417FD21C8EAA8000B4F8C /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		180417FF21C8EAB5000B4F8C /* UIButton+MOLButtonExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MOLButtonExtention.m"; sourceTree = "<group>"; };
+		1804180021C8EAB5000B4F8C /* UIButton+MOLButtonExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MOLButtonExtention.h"; sourceTree = "<group>"; };
 		1817B40221C8CB8F001781C7 /* coachfellow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coachfellow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1817B40521C8CB8F001781C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1817B40621C8CB8F001781C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +82,10 @@
 		1817B42521C8CB91001781C7 /* coachfellowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coachfellowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1817B42921C8CB91001781C7 /* coachfellowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coachfellowUITests.m; sourceTree = "<group>"; };
 		1817B42B21C8CB91001781C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1817B44721C8DA34001781C7 /* AppDelegate+RootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RootController.h"; sourceTree = "<group>"; };
+		1817B44821C8DA34001781C7 /* AppDelegate+RootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RootController.m"; sourceTree = "<group>"; };
+		1817B44A21C8DA58001781C7 /* AppDelegate+Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Service.h"; sourceTree = "<group>"; };
+		1817B44B21C8DA58001781C7 /* AppDelegate+Service.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Service.m"; sourceTree = "<group>"; };
 		821568A7867EA8F4802ED22E /* Pods-coachfellow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coachfellow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coachfellow/Pods-coachfellow.debug.xcconfig"; sourceTree = "<group>"; };
 		D588EDE83D041ECF40DBC03D /* libPods-coachfellow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coachfellow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -108,8 +141,7 @@
 		1817B40421C8CB8F001781C7 /* coachfellow */ = {
 			isa = PBXGroup;
 			children = (
-				1817B40521C8CB8F001781C7 /* AppDelegate.h */,
-				1817B40621C8CB8F001781C7 /* AppDelegate.m */,
+				1817B43721C8D810001781C7 /* Classes */,
 				1817B40821C8CB8F001781C7 /* ViewController.h */,
 				1817B40921C8CB8F001781C7 /* ViewController.m */,
 				1817B40B21C8CB8F001781C7 /* Main.storyboard */,
@@ -137,6 +169,134 @@
 				1817B42B21C8CB91001781C7 /* Info.plist */,
 			);
 			path = coachfellowUITests;
+			sourceTree = "<group>";
+		};
+		1817B43721C8D810001781C7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1817B44221C8D810001781C7 /* AppDelegate */,
+				1817B43921C8D810001781C7 /* Scenes */,
+				1817B43821C8D810001781C7 /* Vendors */,
+				1817B43A21C8D810001781C7 /* Resources */,
+				1817B43C21C8D810001781C7 /* Models */,
+				1817B43D21C8D810001781C7 /* Common */,
+				1817B44121C8D810001781C7 /* Macro */,
+				1817B44321C8D810001781C7 /* Helpers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1817B43821C8D810001781C7 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		1817B43921C8D810001781C7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1817B43A21C8D810001781C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1817B43B21C8D810001781C7 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1817B43B21C8D810001781C7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1817B43C21C8D810001781C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1817B43D21C8D810001781C7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1817B43E21C8D810001781C7 /* ViewControllers */,
+				1817B43F21C8D810001781C7 /* Views */,
+				1817B44021C8D810001781C7 /* Categories */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1817B43E21C8D810001781C7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				180417E721C8E5E4000B4F8C /* YZBaseTabBarController.h */,
+				180417E821C8E5E4000B4F8C /* YZBaseTabBarController.m */,
+				180417EA21C8E613000B4F8C /* YZBaseNavigationController.h */,
+				180417EB21C8E613000B4F8C /* YZBaseNavigationController.m */,
+				180417ED21C8E62D000B4F8C /* YZBaseViewController.h */,
+				180417EE21C8E62D000B4F8C /* YZBaseViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1817B43F21C8D810001781C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1817B44021C8D810001781C7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1804180021C8EAB5000B4F8C /* UIButton+MOLButtonExtention.h */,
+				180417FF21C8EAB5000B4F8C /* UIButton+MOLButtonExtention.m */,
+				180417F621C8EA9C000B4F8C /* NSDictionary+MOLDictionaryExtention.h */,
+				180417F721C8EA9C000B4F8C /* NSDictionary+MOLDictionaryExtention.m */,
+				180417F321C8EA9C000B4F8C /* UITabBar+Badge.h */,
+				180417F421C8EA9C000B4F8C /* UITabBar+Badge.m */,
+				180417F821C8EA9D000B4F8C /* UIView+NTES.h */,
+				180417F521C8EA9C000B4F8C /* UIView+NTES.m */,
+				180417FC21C8EAA8000B4F8C /* MBProgressHUD+MJ.h */,
+				180417FD21C8EAA8000B4F8C /* MBProgressHUD+MJ.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1817B44121C8D810001781C7 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				180417F221C8E70E000B4F8C /* Header.h */,
+				180417F121C8E6E9000B4F8C /* SystemMacro.h */,
+				180417F021C8E65E000B4F8C /* PrefixHeader.pch */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		1817B44221C8D810001781C7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1817B40521C8CB8F001781C7 /* AppDelegate.h */,
+				1817B40621C8CB8F001781C7 /* AppDelegate.m */,
+				1817B44721C8DA34001781C7 /* AppDelegate+RootController.h */,
+				1817B44821C8DA34001781C7 /* AppDelegate+RootController.m */,
+				1817B44A21C8DA58001781C7 /* AppDelegate+Service.h */,
+				1817B44B21C8DA58001781C7 /* AppDelegate+Service.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1817B44321C8D810001781C7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		2ABADC23C2BF8E1A334C0718 /* Frameworks */ = {
@@ -290,15 +450,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-coachfellow/Pods-coachfellow-frameworks.sh",
 				"${PODS_ROOT}/NIMSDK_LITE/NIMSDK/NIMSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMSDK.framework",
 			);
@@ -312,16 +468,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-coachfellow/Pods-coachfellow-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
@@ -336,15 +488,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-coachfellow-checkManifestLockResult.txt",
 			);
@@ -360,9 +508,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180417FE21C8EAA8000B4F8C /* MBProgressHUD+MJ.m in Sources */,
+				180417FA21C8EA9D000B4F8C /* UIView+NTES.m in Sources */,
+				180417FB21C8EA9D000B4F8C /* NSDictionary+MOLDictionaryExtention.m in Sources */,
 				1817B40A21C8CB8F001781C7 /* ViewController.m in Sources */,
+				180417F921C8EA9D000B4F8C /* UITabBar+Badge.m in Sources */,
+				180417EC21C8E613000B4F8C /* YZBaseNavigationController.m in Sources */,
 				1817B41521C8CB91001781C7 /* main.m in Sources */,
+				1817B44921C8DA34001781C7 /* AppDelegate+RootController.m in Sources */,
+				1817B44C21C8DA58001781C7 /* AppDelegate+Service.m in Sources */,
 				1817B40721C8CB8F001781C7 /* AppDelegate.m in Sources */,
+				180417EF21C8E62D000B4F8C /* YZBaseViewController.m in Sources */,
+				180417E921C8E5E4000B4F8C /* YZBaseTabBarController.m in Sources */,
+				1804180121C8EAB5000B4F8C /* UIButton+MOLButtonExtention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,12 +691,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59A7P4988D;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/coachfellow/Classes/Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = coachfellow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yizhao.app.coachfellow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moli.reward.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -550,12 +710,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59A7P4988D;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/coachfellow/Classes/Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = coachfellow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yizhao.app.coachfellow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moli.reward.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

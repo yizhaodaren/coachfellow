@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AppDelegate+Service.h"
+#import "AppDelegate+RootController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self app_registUmeng];
     return YES;
 }
 
